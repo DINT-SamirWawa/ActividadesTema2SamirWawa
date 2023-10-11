@@ -1,0 +1,49 @@
+﻿<Window x:Class="Tema2_AdivinaNumero.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_AdivinaNumero"
+        mc:Ignorable="d"
+        Title="Adivina Numero Samir Wawa" Height="450" Width="800">
+    <Grid>
+        <TextBox 
+            x:Name="num"
+            HorizontalAlignment="Left" 
+            Margin="418,64,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            VerticalAlignment="Top" 
+            Width="168"
+            FontSize="20"/>
+        <Button 
+            Content="Comprobar" 
+            HorizontalAlignment="Left" 
+            Margin="121,117,0,0" 
+            VerticalAlignment="Top"
+            FontSize="20" 
+            Click="ComprobarButton_Click"/>
+        <Button 
+            Content="Reiniciar" 
+            HorizontalAlignment="Left" 
+            Margin="347,117,0,0" 
+            VerticalAlignment="Top"
+            FontSize="20" Click="ReiniciarButton_Click"/>
+        <TextBlock 
+            HorizontalAlignment="Left" 
+            Margin="104,64,0,0" 
+            TextWrapping="Wrap" 
+            Text="Intrduce un número entre 0 y 100" 
+            VerticalAlignment="Top"
+            FontSize="20"/>
+        <TextBlock 
+            x:Name="SolucionTextBlock"
+            HorizontalAlignment="Left" 
+            Margin="277,273,0,0" 
+            TextWrapping="Wrap" 
+            Text="" 
+            VerticalAlignment="Top"
+            FontSize="20"/>
+
+    </Grid>
+</Window>

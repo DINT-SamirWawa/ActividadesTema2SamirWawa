@@ -1,0 +1,15 @@
+﻿<Window x:Class="Tema2_Opacidad.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Tema2_Opacidad"
+        mc:Ignorable="d"
+        Title="Opacidad Samir Wawa" Height="450" Width="800">
+    <Grid>
+        <Image Margin="35,54,561,32" Source="/1-intro-photo-final.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Opacidad_Ratón"/>
+        <Image Margin="262,54,286,32" Source="/fotos-animales-1_079d6ae0_221212155317_1280x720.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Opacidad_Ratón"/>
+        <Image Margin="530,54,34,32" Source="/gettyimages-165807103-612x612.jpg" Stretch="Fill" Opacity="0.5" MouseEnter="Opacidad_Ratón"/>
+
+    </Grid>
+</Window>

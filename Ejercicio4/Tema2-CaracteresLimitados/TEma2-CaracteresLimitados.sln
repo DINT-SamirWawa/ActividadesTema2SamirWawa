@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TEma2-CaracteresLimitados", "TEma2-CaracteresLimitados.csproj", "{DBD05EFC-6AC1-4989-8F3E-45E859E7FA2D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBD05EFC-6AC1-4989-8F3E-45E859E7FA2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD05EFC-6AC1-4989-8F3E-45E859E7FA2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD05EFC-6AC1-4989-8F3E-45E859E7FA2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD05EFC-6AC1-4989-8F3E-45E859E7FA2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {834E6F57-5433-4627-85B6-C3F39C0F5A4E}
+	EndGlobalSection
+EndGlobal
